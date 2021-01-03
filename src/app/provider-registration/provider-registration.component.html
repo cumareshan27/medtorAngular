@@ -1,0 +1,115 @@
+<form (ngSubmit)="registerUser()">
+  <div class="form-group">
+    <label for="name">First Name</label>
+    <input
+      type="text"
+      class="form-control"
+      id="name"
+      required
+      [(ngModel)]="userDetails.firstName"
+      name="name"
+    />
+  </div>
+  <div class="form-group">
+    <label for="name">Middle Name</label>
+    <input
+      type="text"
+      class="form-control"
+      id="name"
+      required
+      [(ngModel)]="userDetails.middleName"
+      name="name"
+    />
+  </div>
+  <div class="form-group">
+    <label for="name">Last Name</label>
+    <input
+      type="text"
+      class="form-control"
+      id="name"
+      required
+      [(ngModel)]="userDetails.lastName"
+      name="name"
+    />
+  </div>
+  <div class="form-group">
+    <label for="name">Email</label>
+    <input
+      type="text"
+      class="form-control"
+      id="email"
+      required
+      [(ngModel)]="userDetails.email"
+      name="email"
+    />
+  </div>
+  <div class="form-group">
+    <label for="name">PhoneNumber</label>
+    <input
+      type="text"
+      class="form-control"
+      id="phonenumber"
+      required
+      [(ngModel)]="userDetails.phoneNumber"
+      name="phoneNumber"
+    />
+  </div>
+  <div class="form-group">
+    <label for="name">Address Line 1</label>
+    <input
+      type="text"
+      class="form-control"
+      id="addressline1"
+      required
+      [(ngModel)]="userDetails.addressLine1"
+      name="addressLine1"
+    />
+  </div>
+  <div class="form-group">
+    <label for="name">Address Line 2</label>
+    <input
+      type="text"
+      class="form-control"
+      id="addressline2"
+      required
+      [(ngModel)]="userDetails.addressLine2"
+      name="addressLine2"
+    />
+  </div>
+  <div class="form-group">
+    <label for="name">City</label>
+    <input
+      type="text"
+      class="form-control"
+      id="name"
+      required
+      [(ngModel)]="userDetails.city"
+      name="city"
+    />
+  </div>
+  <div class="form-group">
+    <label for="name">State</label>
+    <input
+      type="text"
+      class="form-control"
+      id="state"
+      required
+      [(ngModel)]="userDetails.state"
+      name="state"
+    />
+  </div>
+  <div class="form-group">
+    <label for="name">Zipcode</label>
+    <input
+      type="text"
+      class="form-control"
+      id="zipcode"
+      required
+      [(ngModel)]="userDetails.zipCode"
+      name="zipcode"
+    />
+  </div>
+  <div class="form-group">
+    <button class="button" type="submit">Register</button>
+  </div>
+</form>
